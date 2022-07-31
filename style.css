@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+
+    background: hsla(333, 100%, 53%, 1);
+
+    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, rgb(238, 248, 42) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, rgb(238, 248, 42) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, rgb(238, 248, 42) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF0F7B", rgb(238, 248, 42) 100%, GradientType=1);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+}
+
+.logocontainer {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+#logoMap {
+    width: 0.5rem !important;
+
+    height: 0.5rem !important;
+    cursor: pointer;
+}
+
+.fotos {
+    gap: 10px;
+}
+
+.img-cont {
+    width: 300px;
+    height: auto;
+
+}
